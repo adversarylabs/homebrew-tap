@@ -1,29 +1,29 @@
 class AdversaryBeta < Formula
   desc "Run containerized source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.7.8-beta.4"
+  version "2026.7.9-beta.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.8-beta.4/adversary_2026.7.8-beta.4_darwin_amd64.tar.gz"
-      sha256 "f576bf665c029f040dfea5a5c0117c28cc8059c96b404874dbd2e8ad312133e3"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.9-beta.1/adversary_2026.7.9-beta.1_darwin_amd64.tar.gz"
+      sha256 "cc63fa73e80286269bb75cf33d9743fb29189ef64a9aaa0802fd90195b518f59"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.8-beta.4/adversary_2026.7.8-beta.4_darwin_arm64.tar.gz"
-      sha256 "5b15895b338fbdf66fcf510ffc5b32b78ecdaca92227c6a6b0c11c616e1e1737"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.9-beta.1/adversary_2026.7.9-beta.1_darwin_arm64.tar.gz"
+      sha256 "5ae945ad79d15e31f6140fd37a81d8e8448ef507185a8d9af2b9ebc053aca1cb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.8-beta.4/adversary_2026.7.8-beta.4_linux_amd64.tar.gz"
-      sha256 "d893900255bd2baeccda2312c9943f6a976de85b6796a24a17df5c80c4cf9249"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.9-beta.1/adversary_2026.7.9-beta.1_linux_amd64.tar.gz"
+      sha256 "d5a26787f2c9db946ffe181b4a45651be1bb5f5863a3e40c82060e73f47bdea4"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.8-beta.4/adversary_2026.7.8-beta.4_linux_arm64.tar.gz"
-      sha256 "6e8dc0a4553382c36e1de131c6f5b16c127a9a3d8f17a482019d2fba22a45a96"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.9-beta.1/adversary_2026.7.9-beta.1_linux_arm64.tar.gz"
+      sha256 "b2852e254110ca8ae94aea4aba6ac7e3a38d5a42a898c908a8470d576e8a998c"
     end
   end
 
