@@ -1,29 +1,30 @@
 class AdversaryBeta < Formula
-  desc "Run containerized source-code adversaries against a local repository"
+  desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.7.9-beta.1"
+  version "2026.7.17-beta.5"
+  # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.9-beta.1/adversary_2026.7.9-beta.1_darwin_amd64.tar.gz"
-      sha256 "cc63fa73e80286269bb75cf33d9743fb29189ef64a9aaa0802fd90195b518f59"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.17-beta.5/adversary_2026.7.17-beta.5_darwin_amd64.tar.gz"
+      sha256 "c473f32ca0594db33539d1c7803e6e70bef9bd5fac22d58d41abe44488ade42e"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.9-beta.1/adversary_2026.7.9-beta.1_darwin_arm64.tar.gz"
-      sha256 "5ae945ad79d15e31f6140fd37a81d8e8448ef507185a8d9af2b9ebc053aca1cb"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.17-beta.5/adversary_2026.7.17-beta.5_darwin_arm64.tar.gz"
+      sha256 "db09b47b773c5dafaf436d779118c3dcbf30e7cc85b1c6a6dcb1d14586c3781a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.9-beta.1/adversary_2026.7.9-beta.1_linux_amd64.tar.gz"
-      sha256 "d5a26787f2c9db946ffe181b4a45651be1bb5f5863a3e40c82060e73f47bdea4"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.17-beta.5/adversary_2026.7.17-beta.5_linux_amd64.tar.gz"
+      sha256 "74957f58de714144ada6372009db3f384dd5649bdd516499ec6ff9e37b12ca01"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.9-beta.1/adversary_2026.7.9-beta.1_linux_arm64.tar.gz"
-      sha256 "b2852e254110ca8ae94aea4aba6ac7e3a38d5a42a898c908a8470d576e8a998c"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.17-beta.5/adversary_2026.7.17-beta.5_linux_arm64.tar.gz"
+      sha256 "0a58f97537fdbad5132e078ee169e6047016e8a94e9b58a843e388e9d5695ca9"
     end
   end
 
@@ -32,6 +33,6 @@ class AdversaryBeta < Formula
   end
 
   test do
-    assert_match "Run containerized source-code adversaries", shell_output("#{bin}/adversary-beta --help")
+    assert_match version.to_s, shell_output("#{bin}/adversary-beta version")
   end
 end
