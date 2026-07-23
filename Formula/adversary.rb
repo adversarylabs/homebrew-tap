@@ -1,30 +1,30 @@
 class Adversary < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.7.18"
+  version "2026.7.22"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.18/adversary_2026.7.18_darwin_amd64.tar.gz"
-      sha256 "2a9e0be0740ce4e298c205c98555013b5a1fe2d6642213caad0467b4cb397c9c"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.22/adversary_2026.7.22_darwin_amd64.tar.gz"
+      sha256 "71f897a3f92079ccc103e780e477ca5187508909c31222aef9f006314ab623d6"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.18/adversary_2026.7.18_darwin_arm64.tar.gz"
-      sha256 "e6c245d755b76913f2e6cfb08c65b3a36d576cded16c9ab6980cf6ede27b9db1"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.22/adversary_2026.7.22_darwin_arm64.tar.gz"
+      sha256 "2337b93f22ebb706453cb7de6a648ab113085552ed2cd357f531f9deefad8073"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.18/adversary_2026.7.18_linux_amd64.tar.gz"
-      sha256 "d1951a937991a4e309526e91e30ad3dd13b79d2f74df71eb888b7f54e226fb9c"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.22/adversary_2026.7.22_linux_amd64.tar.gz"
+      sha256 "04ddac6328219d192bd51c24786b596dbcd92c2c7a319f6dc2f0a2afc3c1aa72"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.18/adversary_2026.7.18_linux_arm64.tar.gz"
-      sha256 "984df2fc888b080a55132e813a8db2ead4bdb65cc31ed5daf487a27777c96572"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.22/adversary_2026.7.22_linux_arm64.tar.gz"
+      sha256 "40338fbabedfcc70b3f09fe924ad9b40e5122362b5bd630c67691993fd4db9c5"
     end
   end
 
