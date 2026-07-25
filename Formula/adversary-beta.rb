@@ -1,30 +1,30 @@
 class AdversaryBeta < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.7.20-beta.1"
+  version "2026.7.25-beta.1"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.20-beta.1/adversary_2026.7.20-beta.1_darwin_amd64.tar.gz"
-      sha256 "f07daa668cba8eb8c7cfd0ad7e37e1d652b04c27ca93c8604583a2c5854ed799"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.25-beta.1/adversary_2026.7.25-beta.1_darwin_amd64.tar.gz"
+      sha256 "8d7324890c8a6a0581938032b19a9e351052a320c8a6f49f5e396d17be0074dd"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.20-beta.1/adversary_2026.7.20-beta.1_darwin_arm64.tar.gz"
-      sha256 "097ef5d96c4269b19b1fa7787c5f1aa1643600f1e0dbe7649a29daef0f544872"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.25-beta.1/adversary_2026.7.25-beta.1_darwin_arm64.tar.gz"
+      sha256 "578e41536e569d1aca56d262bcafaa80ac9c894aa55c8a8db4e92cdb0aea532c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.20-beta.1/adversary_2026.7.20-beta.1_linux_amd64.tar.gz"
-      sha256 "26148eb3b956c9b61ed31d6ebe07a810f51d669ec846494c32367cd452a90095"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.25-beta.1/adversary_2026.7.25-beta.1_linux_amd64.tar.gz"
+      sha256 "67b1ec73e7485be4bfff95512df493f06b938d112952f4abb25e1037fb5d4bc1"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.20-beta.1/adversary_2026.7.20-beta.1_linux_arm64.tar.gz"
-      sha256 "aae76580df98db1e822bb303b706ad4fe325cc2f788dbc001f2f71496dc665a0"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.25-beta.1/adversary_2026.7.25-beta.1_linux_arm64.tar.gz"
+      sha256 "c55ffbc4c69b37fc2c948482c369ee07a8cda3020f35f131a74aef56b082c82d"
     end
   end
 
