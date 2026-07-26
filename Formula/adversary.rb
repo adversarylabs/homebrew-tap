@@ -1,30 +1,30 @@
 class Adversary < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.7.25"
+  version "2026.7.26"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.25/adversary_2026.7.25_darwin_amd64.tar.gz"
-      sha256 "ecaa17b91f490dc713a3d1a11cbb1902fc8350413b6d3a37f54b1f4731b860c5"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.26/adversary_2026.7.26_darwin_amd64.tar.gz"
+      sha256 "a895aa791ea2aca6f5be4c33550aaf9e86bc084a696f6fcafe052cb8a0a519a7"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.25/adversary_2026.7.25_darwin_arm64.tar.gz"
-      sha256 "86bf854f8b870c0eb65b940b7c56a4a150821af674ec443b1570d78edfd82217"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.26/adversary_2026.7.26_darwin_arm64.tar.gz"
+      sha256 "af804222534e5cf03bc2710a42494402afaa4d684cd3f2f62c0f37fa07ef9fe2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.25/adversary_2026.7.25_linux_amd64.tar.gz"
-      sha256 "6ba0cafdbc53acec5f07e979939bf15898243c56d4331cd9df7b51c2c357a3a9"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.26/adversary_2026.7.26_linux_amd64.tar.gz"
+      sha256 "a85da7bad60806e0798bedaf6263f1d73c4cfc7feacd79f4644fefe30e0ffcfb"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.25/adversary_2026.7.25_linux_arm64.tar.gz"
-      sha256 "f8fe5134cc45ef9a567673588cbdf160d221db7c78036b393f98c259e6728d31"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.7.26/adversary_2026.7.26_linux_arm64.tar.gz"
+      sha256 "d2662d795d668f84e9d2e55762ec741be3e2c13f20533c844b07d3ab2ec28e53"
     end
   end
 
