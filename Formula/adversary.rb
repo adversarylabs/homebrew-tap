@@ -1,30 +1,30 @@
 class Adversary < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.8.14"
+  version "2026.8.31"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.14/adversary_2026.8.14_darwin_amd64.tar.gz"
-      sha256 "b55f390ec3a37a67dd1206a27793edb82214b08c34f5e482729de0c73d76030f"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.31/adversary_2026.8.31_darwin_amd64.tar.gz"
+      sha256 "e527b4b02dcda090c887fdac16d5290944ad09ef01d3aa220a289f4a1c596cdb"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.14/adversary_2026.8.14_darwin_arm64.tar.gz"
-      sha256 "2c081fe0b4343a2f662976a1ca5fc3185ff84a4a63d82bacc96874ea0284badc"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.31/adversary_2026.8.31_darwin_arm64.tar.gz"
+      sha256 "8926dd9e1e94cd1facc6f99f3d8560cabd903afaff96e7206ea9dc3ae6b848fa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.14/adversary_2026.8.14_linux_amd64.tar.gz"
-      sha256 "fd1470b49eabc107cb02c8aa70d7eff8b8aa73f782f6a7726503fce0bd28400a"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.31/adversary_2026.8.31_linux_amd64.tar.gz"
+      sha256 "9c5ceed1643f1ffec9021a852078ad50008ae3557d7fb426ccca29c16cec6c76"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.14/adversary_2026.8.14_linux_arm64.tar.gz"
-      sha256 "18e616291d909ed3f4bdf9c41475d70433d0dd90c1ab9323bc8cb2f00e394958"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.31/adversary_2026.8.31_linux_arm64.tar.gz"
+      sha256 "39194c5430071ecc063d1385469477a32500b3fbb9c2f2dc6931f6108e3c7944"
     end
   end
 
