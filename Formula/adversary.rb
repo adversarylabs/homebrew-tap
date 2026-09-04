@@ -1,30 +1,30 @@
 class Adversary < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.8.31"
+  version "2026.9.4"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.31/adversary_2026.8.31_darwin_amd64.tar.gz"
-      sha256 "e527b4b02dcda090c887fdac16d5290944ad09ef01d3aa220a289f4a1c596cdb"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.4/adversary_2026.9.4_darwin_amd64.tar.gz"
+      sha256 "da0ea5475d3113ed4e330e0c4d905b84367d712100e4cbec9cb2167807040d1d"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.31/adversary_2026.8.31_darwin_arm64.tar.gz"
-      sha256 "8926dd9e1e94cd1facc6f99f3d8560cabd903afaff96e7206ea9dc3ae6b848fa"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.4/adversary_2026.9.4_darwin_arm64.tar.gz"
+      sha256 "800e588e9e97957eebd22019c8d53ed9420057b845b2cc13301468e251836c6e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.31/adversary_2026.8.31_linux_amd64.tar.gz"
-      sha256 "9c5ceed1643f1ffec9021a852078ad50008ae3557d7fb426ccca29c16cec6c76"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.4/adversary_2026.9.4_linux_amd64.tar.gz"
+      sha256 "d5364e8900a3f1b400839ed1989cb4e27d8a98896cff912859f3e5e9696b4c82"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.8.31/adversary_2026.8.31_linux_arm64.tar.gz"
-      sha256 "39194c5430071ecc063d1385469477a32500b3fbb9c2f2dc6931f6108e3c7944"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.4/adversary_2026.9.4_linux_arm64.tar.gz"
+      sha256 "b685d084f41a38b46d272380b2d7efed1809730762e0d7154ed1ffb6db39a4ca"
     end
   end
 
