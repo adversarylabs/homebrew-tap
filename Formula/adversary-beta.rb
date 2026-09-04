@@ -1,30 +1,30 @@
 class AdversaryBeta < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.9.3-beta.7"
+  version "2026.9.3-beta.8"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.3-beta.7/adversary_2026.9.3-beta.7_darwin_amd64.tar.gz"
-      sha256 "e11749c68f0a27ac778e42ad433bd9e9d1213bb0408b59c93bdc4c0f1f7dcd49"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.3-beta.8/adversary_2026.9.3-beta.8_darwin_amd64.tar.gz"
+      sha256 "beb6d1c39c18bab998b7d323660e79e47a84a4216db3cc1fc1915e1c506faf95"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.3-beta.7/adversary_2026.9.3-beta.7_darwin_arm64.tar.gz"
-      sha256 "9ee1122d2000d79b78537f0d7859a29515da0fb9d4e42e83b07dc12c73972799"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.3-beta.8/adversary_2026.9.3-beta.8_darwin_arm64.tar.gz"
+      sha256 "bd817bce35ef429c6a33056714fe154b4cffc0b5867b9017a14a46685c39c136"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.3-beta.7/adversary_2026.9.3-beta.7_linux_amd64.tar.gz"
-      sha256 "98149f3f65b946a046ad8c74bf724affda310f669931a25d8abeffc573bde4b0"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.3-beta.8/adversary_2026.9.3-beta.8_linux_amd64.tar.gz"
+      sha256 "6175e5ffd0ff380a7ee6f9e0e62a84c0e12a78b4c9c11d7b737c5d198d17568a"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.3-beta.7/adversary_2026.9.3-beta.7_linux_arm64.tar.gz"
-      sha256 "c1252e7e2da5314cccf5d377e11dd58847e350eba06845b26152a331dec5625b"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.3-beta.8/adversary_2026.9.3-beta.8_linux_arm64.tar.gz"
+      sha256 "fecbb22e261f36806141c4ab5af0ec0c26e103154db89071c2500f2695cc177a"
     end
   end
 
