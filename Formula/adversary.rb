@@ -1,30 +1,30 @@
 class Adversary < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/adversarylabs/adversary"
-  version "2026.9.4"
+  version "2026.9.5"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.4/adversary_2026.9.4_darwin_amd64.tar.gz"
-      sha256 "da0ea5475d3113ed4e330e0c4d905b84367d712100e4cbec9cb2167807040d1d"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.5/adversary_2026.9.5_darwin_amd64.tar.gz"
+      sha256 "cdd3bca3989877d239d91835880e3b4a36df86bfe773734f5d9b5b9f230ea52b"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.4/adversary_2026.9.4_darwin_arm64.tar.gz"
-      sha256 "800e588e9e97957eebd22019c8d53ed9420057b845b2cc13301468e251836c6e"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.5/adversary_2026.9.5_darwin_arm64.tar.gz"
+      sha256 "a01ca273245fa25858056b6332edb1c2d421000a17998ed64cccddb006800d62"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.4/adversary_2026.9.4_linux_amd64.tar.gz"
-      sha256 "d5364e8900a3f1b400839ed1989cb4e27d8a98896cff912859f3e5e9696b4c82"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.5/adversary_2026.9.5_linux_amd64.tar.gz"
+      sha256 "fb81132563bce4c3be7e1cb2b4d935f3c346185661ca93c803206d42f65fc7f1"
     end
 
     on_arm do
-      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.4/adversary_2026.9.4_linux_arm64.tar.gz"
-      sha256 "b685d084f41a38b46d272380b2d7efed1809730762e0d7154ed1ffb6db39a4ca"
+      url "https://github.com/adversarylabs/adversary/releases/download/2026.9.5/adversary_2026.9.5_linux_arm64.tar.gz"
+      sha256 "12bfef8270a5e59ec0d1bc11f7099680b33da2536e30c094da2ee1372ca93820"
     end
   end
 
