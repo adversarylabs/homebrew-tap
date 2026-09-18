@@ -1,30 +1,30 @@
 class AdversaryBeta < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/doomerlabs/adversary"
-  version "2026.9.18-beta.1"
+  version "2026.9.18-beta.2"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/doomerlabs/adversary/releases/download/2026.9.18-beta.1/adversary_2026.9.18-beta.1_darwin_amd64.tar.gz"
-      sha256 "84af892affc9e531127609d6c169a25e1492e6a137e3e53fa8bf9cc8ed7deca4"
+      url "https://github.com/doomerlabs/adversary/releases/download/2026.9.18-beta.2/adversary_2026.9.18-beta.2_darwin_amd64.tar.gz"
+      sha256 "496dd3a68822a9e487f148088f2f57020da8a7052046f3745c0e0730c4856f10"
     end
 
     on_arm do
-      url "https://github.com/doomerlabs/adversary/releases/download/2026.9.18-beta.1/adversary_2026.9.18-beta.1_darwin_arm64.tar.gz"
-      sha256 "08c54697991cdd21f775a340cac6219b0c582743f9da65b55ff8f2fd29260918"
+      url "https://github.com/doomerlabs/adversary/releases/download/2026.9.18-beta.2/adversary_2026.9.18-beta.2_darwin_arm64.tar.gz"
+      sha256 "dc969d934139af1e0849e6130126598b4cf81e85e6d90a00eb03174ff580bf6d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/doomerlabs/adversary/releases/download/2026.9.18-beta.1/adversary_2026.9.18-beta.1_linux_amd64.tar.gz"
-      sha256 "98c90f3b3de70e547a0a4f86e6127ea021fe54691306962e39c10f8c50661264"
+      url "https://github.com/doomerlabs/adversary/releases/download/2026.9.18-beta.2/adversary_2026.9.18-beta.2_linux_amd64.tar.gz"
+      sha256 "60b1bb14dbc461b07ef933c63646371a134d11f9bd5a4c36e1ab0187be6e4045"
     end
 
     on_arm do
-      url "https://github.com/doomerlabs/adversary/releases/download/2026.9.18-beta.1/adversary_2026.9.18-beta.1_linux_arm64.tar.gz"
-      sha256 "5d0dbea6aaae7720f5221a41abf685d4279a5b9f2eb27a84fbbdafe5be384295"
+      url "https://github.com/doomerlabs/adversary/releases/download/2026.9.18-beta.2/adversary_2026.9.18-beta.2_linux_arm64.tar.gz"
+      sha256 "654097415cb1df3acbd3ada193100558064d03222289a1471f403116a0c7a355"
     end
   end
 
