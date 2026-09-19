@@ -1,30 +1,30 @@
 class DoomerBeta < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/doomerlabs/doomer"
-  version "2026.9.20-beta.4"
+  version "2026.9.20-beta.5"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.20-beta.4/doomer_2026.9.20-beta.4_darwin_amd64.tar.gz"
-      sha256 "7907b66496495b9bfaf0656d8d160f028908fc962d90842c57758710737e62c5"
+      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.20-beta.5/doomer_2026.9.20-beta.5_darwin_amd64.tar.gz"
+      sha256 "76f9f718f58f49f23a5e48aa9b814ad1a45570e0a00729258d61759ab4017318"
     end
 
     on_arm do
-      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.20-beta.4/doomer_2026.9.20-beta.4_darwin_arm64.tar.gz"
-      sha256 "11900945df90109f166a46513e9e3e48b34a6abbae31af6fda65672caa0f10d7"
+      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.20-beta.5/doomer_2026.9.20-beta.5_darwin_arm64.tar.gz"
+      sha256 "24483e78824cce1d3765f01f8a89f3e188a94c6941ce29f0a64f00c88966a446"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.20-beta.4/doomer_2026.9.20-beta.4_linux_amd64.tar.gz"
-      sha256 "453e629b15b3d761882612ee8722cbdca2b695c05d60d483b2729e19be4df9df"
+      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.20-beta.5/doomer_2026.9.20-beta.5_linux_amd64.tar.gz"
+      sha256 "93add2bb92218a3001555fc69621c051715b21378f1b9912c3287232d7e21342"
     end
 
     on_arm do
-      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.20-beta.4/doomer_2026.9.20-beta.4_linux_arm64.tar.gz"
-      sha256 "2100c568c5ec0303923fde042fce5975cdd6806f48a37d750bbe1aa725cec109"
+      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.20-beta.5/doomer_2026.9.20-beta.5_linux_arm64.tar.gz"
+      sha256 "0d3fa34c6989d9143c5817a89198ffa7deb33eed0dfb5deb4ff11b79a93a57ec"
     end
   end
 
