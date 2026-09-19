@@ -1,30 +1,30 @@
 class Doomer < Formula
   desc "Run source-code adversaries against a local repository"
   homepage "https://github.com/doomerlabs/doomer"
-  version "2026.9.18"
+  version "2026.9.19.2"
   # No license stanza: upstream has not selected a license. See LICENSE.
 
   on_macos do
     on_intel do
-      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.18/doomer_2026.9.18_darwin_amd64.tar.gz"
-      sha256 "716810424bb8cb09840b752646c32ebb028cfaf001e7f4bc2fba4ef916bfe8fa"
+      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.19.2/doomer_2026.9.19.2_darwin_amd64.tar.gz"
+      sha256 "2c7285cbc76ee586104b0f383eba37aa2cfff08c505aa2adad123b18cbca9cb0"
     end
 
     on_arm do
-      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.18/doomer_2026.9.18_darwin_arm64.tar.gz"
-      sha256 "196df566c0bfaa3c69dd617b81e24fad1ac1c802e8ba414033a29a27b5259e4f"
+      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.19.2/doomer_2026.9.19.2_darwin_arm64.tar.gz"
+      sha256 "93ab33403b0c054b55ed482b2b770fc05ca0917ea2a5e5761e2156e608cb2daa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.18/doomer_2026.9.18_linux_amd64.tar.gz"
-      sha256 "bc902451a58199a0e74a65fe5306c650172426c06e2f25e02e84720caad36cb2"
+      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.19.2/doomer_2026.9.19.2_linux_amd64.tar.gz"
+      sha256 "f1806b7cab3adc0ed56688b58006f8f664564d345f9131ce7b45b6f27d3b60e8"
     end
 
     on_arm do
-      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.18/doomer_2026.9.18_linux_arm64.tar.gz"
-      sha256 "9319e314236516a9c9eb4f841fa7acd7f22ed5303ad7b7083412f4cc841a6d8d"
+      url "https://github.com/doomerlabs/doomer/releases/download/2026.9.19.2/doomer_2026.9.19.2_linux_arm64.tar.gz"
+      sha256 "13ce10bd5d634551963dd03f69f684a05b2cac24ecfcc9c48e4b17e4613f3eb5"
     end
   end
 
